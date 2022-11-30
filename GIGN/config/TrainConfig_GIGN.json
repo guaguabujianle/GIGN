@@ -1,0 +1,17 @@
+{
+    "train":
+    {
+        "model": "GIGN", 
+        "data_root" : "./data",
+        "save_dir" : "./model",
+        "graph_type" : "Graph_GIGN",
+        "repeat" : 3,
+        "fold" : 0,
+        "epochs" : 800,
+        "batch_size" : 128,
+        "early_stop_epoch" : 100,
+        "save_model": true, 
+        "create" : true,
+        "mark": null
+    }
+}

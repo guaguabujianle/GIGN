@@ -1,0 +1,1 @@
+{"model": "SchNet", "data_root": "./data", "save_dir": "./model", "graph_type": "Graph_SchNet", "repeat": 1, "fold": 0, "epochs": 800, "batch_size": 128, "early_stop_epoch": 100, "save_model": true, "create": true, "mark": null}
