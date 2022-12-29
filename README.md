@@ -27,6 +27,7 @@ torch==1.10.2
 torch_geometric==2.0.3  
 tqdm==4.63.0  
 
+## Usage:
 We provide a demo to show how to train, validate and test GIGN. All baselines share similar usage. First, cd ./GIGN
 ### 1. Model training
 Firstly, download the preprocessed datasets from , and organize them as './data/train', './data/valid', './data/test2013/', './data/test2016/', and  './data/test2019/'.  
