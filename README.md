@@ -11,7 +11,7 @@ Each baseline folder has a requirement.txt listing the version of the packages.
 All data used in this paper are publicly available and can be accessed here:  
 - PDBbind v2016 and v2019: http://www.pdbbind.org.cn/download.php  
 - 2013 and 2016 core sets: http://www.pdbbind.org.cn/casf.php  
-You can also download the processed data from
+You can also download the processed data from https://zenodo.org/record/7490623#.Y60PTnZBxD8
 
 ## Requirements:
 matplotlib==3.3.4  
@@ -30,7 +30,7 @@ tqdm==4.63.0
 ## Usage:
 We provide a demo to show how to train, validate and test GIGN. First, cd ./GIGN
 ### 1. Model training
-Firstly, download the preprocessed datasets from , and organize them as './data/train', './data/valid', './data/test2013/', './data/test2016/', and  './data/test2019/'.  
+Firstly, download the preprocessed datasets from https://zenodo.org/record/7490623#.Y60PTnZBxD8, and organize them as './data/train', './data/valid', './data/test2013/', './data/test2016/', and  './data/test2019/'.  
 Secondly, run train.py using `python train.py`.  
 
 ### 2. Model testing
