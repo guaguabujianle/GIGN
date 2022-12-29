@@ -14,20 +14,20 @@ All data used in this paper are publicly available and can be accessed here:
 You can also download the processed data from
 
 ## Requirements:
-matplotlib==3.3.4
-networkx==2.5
-numpy==1.19.2
-pandas==1.1.5
-pymol==0.1.0
-rdkit==2022.9.2
-scikit_learn==1.1.3
-scipy==1.5.2
-seaborn==0.11.2
-torch==1.10.2
-torch_geometric==2.0.3
-tqdm==4.63.0
+matplotlib==3.3.4  
+networkx==2.5  
+numpy==1.19.2  
+pandas==1.1.5  
+pymol==0.1.0  
+rdkit==2022.9.2  
+scikit_learn==1.1.3  
+scipy==1.5.2  
+seaborn==0.11.2  
+torch==1.10.2  
+torch_geometric==2.0.3  
+tqdm==4.63.0  
 
-We provide a demo to show how to train, validate and test GIGN. All baselines share similar usage. First, cd ./GIGN  
+We provide a demo to show how to train, validate and test GIGN. All baselines share similar usage. First, cd ./GIGN
 ### 1. Model training
 Firstly, download the preprocessed datasets from , and organize them as './data/train', './data/valid', './data/test2013/', './data/test2016/', and  './data/test2019/'.  
 Secondly, run train.py using `python train.py`.  
