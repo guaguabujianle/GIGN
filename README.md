@@ -6,7 +6,7 @@ IGN: https://github.com/zjujdj/InteractionGraphNet/tree/master
 SchNet: https://pytorch-geometric.readthedocs.io/en/latest/_modules/torch_geometric/nn/models/schnet.html  
 EGNN: https://github.com/vgsatorras/egnn  
 RF-Score: The RF-Score features are extracted using OODT: https://github.com/oddt/oddt, we already provide the processed data in ./RF-Score/feature so that the project can be run directly.    
-Each baseline folder has a requirement.txt listing the version of the packages.  
+Each baseline directory has a requirement.txt listing the version of the packages.  
 
 ## Dataset:
 All data used in this paper are publicly available and can be accessed here:  
